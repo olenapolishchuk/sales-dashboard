@@ -4,27 +4,43 @@ This project explores and analyzes fictional sales data to generate insights usi
 
 ## Project Structure
 
-- `data/sales_data.csv`: The dataset containing sales transactions.
-- `notebooks/analysis.ipynb`: Jupyter notebook with all steps of data exploration and visualization.
-- `visuals/`: Directory to save graphs and charts.
+- `data/raw_sales_data.csv`: The original raw dataset containing missing values, duplicates, and inconsistent entries.
+- `notebooks/cleaning_and_eda.ipynb`: Jupyter notebook that cleans the data and performs exploratory analysis.
+- `visuals/`: Folder for charts and visualizations (to be generated).
+- `reports/`: Optional business report summaries.
 
-## Tools & Libraries
+## Goals
+
+- Identify and fix data quality issues (missing values, duplicates, incorrect formats).
+- Explore sales patterns by region and product.
+- Generate key business insights with visualizations.
+
+## Tools Used
 
 - Python
-- pandas
-- matplotlib
-- seaborn
+- pandas, numpy
+- seaborn, matplotlib
 - Jupyter Notebook
 
-## Key Insights
+## Key Analysis Steps
 
-- Total revenue per region
-- Units sold trends over time
-- Product performance
+1. **Data Cleaning**:
+    - Remove or fill missing values
+    - Strip columns, drop duplicates
+    - Convert types, create new metrics
+2. **EDA**:
+    - Total revenue by region
+    - Sales trends by product
+    - Visualizations and summaries
 
 ## How to Run
 
 1. Clone the repository
-2. Place the dataset in `data/` folder
-3. Open the notebook in Jupyter and run all cells
+2. Place `raw_sales_data.csv` inside `data/` folder
+3. Run `notebooks/cleaning_and_eda.ipynb` using Jupyter
+
+---
+
+*Created as part of a professional Data Analyst portfolio.*
+
 
