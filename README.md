@@ -15,13 +15,17 @@ This project explores and analyzes fictional sales data to generate insights usi
 - Identify and fix data quality issues (missing values, duplicates, incorrect formats).
 - Explore sales patterns by region and product.
 - Generate key business insights with visualizations.
+- Export results to Excel and PDF
+- Build a professional dashboard in Power BI
+
 
 ## Tools Used
 
-- Python
-- pandas, numpy
-- seaborn, matplotlib
-- Jupyter Notebook
+- Python (pandas,numpy, matplotlib, seaborn, reportlab)
+- Excel (via pandas export)
+- Power BI for interactive dashboard
+- Jupyter Notebook (for development)
+
 
 ## Key Analysis Steps
 
@@ -33,6 +37,18 @@ This project explores and analyzes fictional sales data to generate insights usi
     - Total revenue by region
     - Sales trends by product
     - Visualizations and summaries
+3. **Core KPIs**:
+    - Total Revenue
+    - Units Sold
+    - Average Order Value
+    - Revenue per Unit
+
+##  Dashboard
+Interactive Power BI dashboard includes:
+- Revenue by Region / Category
+- Trend over Time
+- KPIs Cards
+- Slicers by Region, Category, Month
 
 ## How to Run
 
