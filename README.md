@@ -5,8 +5,9 @@ This project explores and analyzes fictional sales data to generate insights usi
 ## Project Structure
 
 - `data/raw_sales_data.csv`: The original raw dataset containing missing values, duplicates, and inconsistent entries.
+- `data/cleaned_sales_data.csv`, `data/cleaned_sales_data.xlsx`: The cleaned datasets .
 - `notebooks/cleaning_and_eda.ipynb`: Jupyter notebook that cleans the data and performs exploratory analysis.
-- `visuals/`: Folder for charts and visualizations (to be generated).
+- `visuals/`: Folder for visualizations .
 - `reports/`: Optional business report summaries.
 
 ## Goals
