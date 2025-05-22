@@ -58,6 +58,9 @@ Interactive Power BI dashboard includes:
 
 ---
 
-*Created as part of a professional Data Analyst portfolio.*
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 
